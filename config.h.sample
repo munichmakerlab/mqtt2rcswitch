@@ -1,0 +1,12 @@
+//***********************************************************
+// WiFi settings
+const char* ssid = "mywifinetwork";
+const char* password = "mywifipassword";
+
+// MQTT broker settings
+const char *mqtt_broker =  "mqtt.example.de";
+const char *mqtt_user =  "mymqttuser";
+const char *mqtt_pass =  "mymqttpassword";
+
+#define MQTT_TOPIC "mumalab/room/rcsockets"
+//***********************************************************
